@@ -1,16 +1,14 @@
-### Hi there 👋
+### Hi there! 👋
 
-<!--
-**FhelipeSasso/FhelipeSasso** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class Self_intro:     
+    def __init__(self, name, age, work):         
+        self.name = name         
+        self.age = age         
+        self.work = work
+    
+    def __repr__(self):         
+        return f'Self-introduction: {self.name}, {self.age} years, {self.work}'
 
-Here are some ideas to get you started:
+fhelipe = Self_intro('Fhelipe Ribeiro', 22, 'Software Developer')
+print(fhelipe)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
