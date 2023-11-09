@@ -1,4 +1,4 @@
-### Hi there! 👋
+### Hello there! 👋
 ```python
 class SelfIntro:     
     def __init__(self, name, age, work):         
